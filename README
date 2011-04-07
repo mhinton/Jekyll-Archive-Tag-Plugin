@@ -1,8 +1,8 @@
 ## Jekyll Archive Tag Plugin ##
 
 In your Jekyll blog directoy create the _plugins directory if it doesn't
-already exist. Then in your archive.html template page insert the call for the
-tag.
+already exist. Add the archive_tag.rb file to the _plugins directory. Then in
+your archive.html template page insert the call for the tag.
 
     {% render_archives site  %}
 
