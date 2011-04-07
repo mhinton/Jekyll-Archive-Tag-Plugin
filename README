@@ -1,0 +1,16 @@
+## Jekyll Archive Tag Plugin ##
+
+In your Jekyll blog directoy create the _plugins directory if it doesn't
+already exist. Then in your archive.html template page insert the call for the
+tag.
+
+    {% render_archives site  %}
+
+When you rebuild your archives page will have year headings and under
+those will be month name and then posts in that month will be listed.
+
+You will need to create styles in your style sheet for these classes.
+
+  archive_year, archive_month, archive_title, archive_day
+
+
